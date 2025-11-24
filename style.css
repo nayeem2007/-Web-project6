@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-box{
+    width: 400px;
+    height: 500px;
+    border: 1px solid;
+    margin: 50px auto;
+    position: relative;
+}
+.mini-box-1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(177, 108, 177);
+    position: absolute;
+    background-color: rgb(220, 199, 12);
+    font-size: 80px;
+    text-align: center;
+}
+.mini-box-2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(177, 108, 177);
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-color: rgb(71, 218, 8);
+    font-size: 80px;
+    text-align: center;
+}
+.mini-box-3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(218, 12, 218);
+    right: 0;
+    position: absolute;
+    background-color: rgb(0, 30, 255);
+    font-size: 80px;
+    text-align: center;
+}
+.mini-box-4{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(177, 108, 177);
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    background-color: rgb(9, 161, 208);
+    font-size: 80px;
+    text-align: center;
+}
+.mini-box-5{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(177, 108, 177);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: rgb(9, 225, 225);
+    font-size: 80px;
+    text-align: center;
+}
+.mini-box-6{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(177, 108, 177);
+    top: 50%;
+    right: 0;
+    transform: translate(0,-50%);
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    font-size: 80px;
+    text-align: center;
+}
+.mini-box-7{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(177, 108, 177);
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(195, 255, 0);
+    font-size: 80px;
+    text-align: center;
+}
+.mini-box-8{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(233, 11, 233);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% ,0);
+    position: absolute;
+    background-color: rgb(255, 0, 238);
+    font-size: 80px;
+    text-align: center;
+}
+.mini-box-9{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(177, 108, 177);
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgb(202, 183, 186);
+    font-size: 80px;
+    text-align:center;
+
+}
